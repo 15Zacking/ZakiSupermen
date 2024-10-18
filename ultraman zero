@@ -1,0 +1,12 @@
+def perkenalan_diri(nama, usia, hobi):
+    print(f"Halo, nama saya {nama}.")
+    print(f"Saya berusia {usia} tahun.")
+    print(f"Hobi saya adalah {hobi}.")
+
+# Input data diri
+nama = input("Masukkan nama Anda: ")
+usia = input("Masukkan usia Anda: ")
+hobi = input("Masukkan hobi Anda: ")
+
+# Panggil fungsi
+perkenalan_diri(nama, usia, hobi)
